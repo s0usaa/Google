@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cabecera {
@@ -72,6 +76,8 @@
     box-shadow: 0.1em 0.1em 1em 0.2em rgba(128, 128, 128, 0.866);
 }
 .centro {
+    height: 80vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -154,6 +160,59 @@
 }
 .microfono:hover{
     cursor:pointer;
+}
+
+.footer{
+    color: rgb(98, 97, 97);
+    background: rgb(219, 218, 218);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footerTop{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.footerBot{
+    border-top: 0.2em solid rgba(128, 128, 128, 0.314);
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.izq{
+    height: 5vh;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.medio{
+    height: 5vh;
+    width: 70%;
+}
+
+.der{
+    height: 5vh;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.esp{
+    font-size: 22px;
 }
 
 
